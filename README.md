@@ -1,36 +1,48 @@
-# Project Title
+# SiteOng7vidas
 
-One Paragraph of project description goes here
+A site with a dog and cat donation system to assist an Ong animal called Ong7vidas.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Make the clone in your machine
+
+```
+git clone https://github.com/dunderlabs/siteong7vidas.git
+```
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+* Python +3.5
+* Django 2.x
+* bower
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Inside the directory your project will live, run the following command:
 
-Say what the step will be
-
-```
-Give the example
+```shell
+$ django-admin startproject project_name --template=https://github.com/dunderlabs/django-boilerplate/archive/master.zip
 ```
 
-And repeat
+After that the following command will update requirements/\*.txt with latest packages from requirements/\*.in:
 
-```
-until finished
+```shell
+$ make pip-compile
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+The next command will install requirements for a local development environment:
+
+```shell
+$ make install-dev-requirements
+```
+
+After all, just install the frontend dependencies with:
+
+```shell
+$ make setup-frontend
+```
 
 ## Running the tests
 
