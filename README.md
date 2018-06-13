@@ -23,12 +23,6 @@ git clone https://github.com/dunderlabs/siteong7vidas.git
 Inside the directory your project will live, run the following command:
 
 ```shell
-$ django-admin startproject project_name --template=https://github.com/dunderlabs/django-boilerplate/archive/master.zip
-```
-
-After that the following command will update requirements/\*.txt with latest packages from requirements/\*.in:
-
-```shell
 $ make pip-compile
 ```
 
@@ -43,6 +37,7 @@ After all, just install the frontend dependencies with:
 ```shell
 $ make setup-frontend
 ```
+> This project using a django template called [django-boilerplate](https://github.com/dunderlabs/django-boilerplate), to more answers visit this repo.
 
 ## Running the tests
 
