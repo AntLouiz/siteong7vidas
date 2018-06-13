@@ -1,82 +1,87 @@
-# Website Ong7vidas 
+# Project Title
 
-**Description**:  Put a meaningful, short, plain-language description of what
-this project is trying to accomplish and why it matters.
-Describe the problem(s) this project solves.
-Describe how this software can improve the lives of its audience.
+One Paragraph of project description goes here
 
-Other things to include:
+## Getting Started
 
-  - **Technology stack**: Indicate the technological nature of the software, including primary programming language(s) and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-  - **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where this project is at. This is also a good place to link to the [CHANGELOG](CHANGELOG.md).
-  - **Links to production or demo instances**
-  - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Prerequisites
 
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
+What things you need to install the software and how to install them
 
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
+```
+Give examples
+```
 
+### Installing
 
-## Dependencies
+A step by step series of examples that tell you how to get a development env running
 
-Describe any dependencies that must be installed for this software to work.
-This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
-If specific versions of other software are required, or known not to work, call that out.
+Say what the step will be
 
-## Installation
+```
+Give the example
+```
 
-Detailed instructions on how to install, configure, and get the project running.
-This should be frequently tested to ensure reliability. Alternatively, link to
-a separate [INSTALL](INSTALL.md) document.
+And repeat
 
-## Configuration
+```
+until finished
+```
 
-If the software is configurable, describe it in detail, either here or in other documentation to which you link.
+End with an example of getting some data out of the system or using it for a little demo
 
-## Usage
+## Running the tests
 
-Show users how to use the software.
-Be specific.
-Use appropriate formatting when showing code snippets.
+Explain how to run the automated tests for this system
 
-## How to test the software
+### Break down into end to end tests
 
-If the software includes automated tests, detail how to run those tests.
+Explain what these tests test and why
 
-## Known issues
+```
+Give an example
+```
 
-Document any known significant shortcomings with the software.
+### And coding style tests
 
-## Getting help
+Explain what these tests test and why
 
-Instruct users how to get help with this software; this might include links to an issue tracker, wiki, mailing list, etc.
+```
+Give an example
+```
 
-**Example**
+## Deployment
 
-If you have questions, concerns, bug reports, etc, please file an issue in this repository's Issue Tracker.
+Add additional notes about how to deploy this on a live system
 
-## Getting involved
+## Built With
 
-This section should detail why people should get involved and describe key areas you are
-currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building
-important pieces, etc.
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](CONTRIBUTING.md).
+## Contributing
 
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-----
+## Versioning
 
-## Open source licensing info
-1. [TERMS](TERMS.md)
-2. [LICENSE](LICENSE)
-3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
+## Authors
 
-----
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-## Credits and references
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-1. Projects that inspired you
-2. Related projects
-3. Books, papers, talks, or other sources that have meaningful impact or influence on this project
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
